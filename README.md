@@ -124,11 +124,12 @@ The application logs all scraping activities, including:
 
 ### Sample Log Output:
 
-```rust
+```
 Attempt 1/3 failed for URL: https://www.linkedin.com/jobs/api...
 Attempt 2/3 failed for URL: https://www.linkedin.com/jobs/api...
 Attempt 3/3 succeeded for URL: https://www.linkedin.com/jobs/api...
 Saved 154 records to jobs.
+```
 
 Logs can be found in `scraper.log`.
 
