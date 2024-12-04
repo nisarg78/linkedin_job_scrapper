@@ -1,3 +1,4 @@
+# Scrapping Logic
 import requests
 import json
 import sqlite3
