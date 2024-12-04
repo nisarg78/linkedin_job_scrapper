@@ -1,0 +1,39 @@
+{
+  "proxies": {
+
+  },
+  "headers": {
+
+  },
+
+  "OpenAI_API_KEY": "",
+  "OpenAI_Model": "",
+  "resume_path": "full local path to your resume in PDF format",
+
+  "search_queries": [
+    {"keywords": "Python developer", "location": "CANADA", "f_WT": ""},
+    {"keywords": "Python developer", "location": "CANADA", "f_WT": "2"},
+    {"keywords": "Machine learning", "location": "CANADA", "f_WT": ""},
+    {"keywords": "Machine learning", "location": "CANADA", "f_WT": "2"},
+    {"keywords": "AI", "location": "CANADA", "f_WT": ""},
+    {"keywords": "AI", "location": "CANADA", "f_WT": "2"}
+  ],
+  "desc_words": [
+    "machine learning", "AI", "artificial intelligence", "data science", "deep learning", "neural networks", "NLP", "natural language processing", 
+    "computer vision", "predictive modeling", "big data", "data analysis", "statistical analysis", "cloud computing", "TensorFlow", "PyTorch", 
+    "data engineer", "algorithms", "data scientist", "model training", "supervised learning", "unsupervised learning", "reinforcement learning", 
+    "data visualization", "data mining", "AI ethics", "Python", "R", "SQL", "Hadoop", "machine learning engineer", "AI researcher", "automated systems"
+  ],
+  "title_exclude": ["frontend", "fron end", "game"],
+  "title_include": ["python", "developer", "backend", "BE", "engineer", "machine learning", "AI", "data scientist", "data engineer", "ML engineer"],
+  "company_exclude": ["ClickJobs.io"],
+  "languages": ["en"],
+  "timespan": "r84600",
+  "jobs_tablename": "jobs",
+  "filtered_jobs_tablename": "filtered_jobs",
+  "db_path": "./data/my_database.db",
+  "pages_to_scrape": 10,
+  "rounds": 1,
+  "days_to_scrape": 10,
+  "app_table": "jobs"
+}
