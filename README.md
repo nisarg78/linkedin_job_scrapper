@@ -37,7 +37,7 @@ Scraping LinkedIn violates its [Terms of Service](https://www.linkedin.com/legal
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/nisargzaveri/linkedin-job-scraper.git
+git clone https://github.com/nisarg78/linkedin_job_scrapper/edit/main/README.md
 cd linkedin-job-scraper
 ```
 
